@@ -1,0 +1,58 @@
+* {
+  color: #fff;
+  outline: none;
+}
+
+body {
+  display: grid;
+  place-items: center;
+  height: 100vh;
+}
+body .main-info {
+  background: #000;
+  width: 600px;
+  height: 600px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 30px;
+  border-radius: 30px;
+}
+body .main-info h1 {
+  margin-top: 30px !important;
+}
+body .main-info input {
+  padding: 5px 30px;
+  border-radius: 10px;
+  color: #000;
+}
+body .main-info input::-moz-placeholder {
+  color: #000;
+  font-weight: 500;
+}
+body .main-info input:-ms-input-placeholder {
+  color: #000;
+  font-weight: 500;
+}
+body .main-info input::placeholder {
+  color: #000;
+  font-weight: 500;
+}
+body .main-info .info-div {
+  width: 80%;
+  height: 60%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+body .main-info .info-div .temp-info {
+  font-size: 110px !important;
+  margin-top: 10px;
+}
+body .main-info .info-div .city-name {
+  font-size: 50px;
+}
+body .main-info .info-div p {
+  font-size: 50px;
+}/*# sourceMappingURL=main.css.map */
